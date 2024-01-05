@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Minitel - Type something</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="main.css">
+  </head>
+  <body id="main"><a class="button" id="button">OPEN KEYBOARD</a>
+    <div class="main">
+      <div class="minitel" id="base">
+        <div class="minitel__b"></div>
+        <div class="mt" id="mt">
+          <div class="mt__front face"> 
+            <div class="mta">
+              <div class="mta__front face"> </div>
+              <div class="mta__back face"> </div>
+              <div class="mta__right face"> </div>
+              <div class="mta__left face"> </div>
+              <div class="mta__top face"> </div>
+              <div class="mta__bottom face"> </div>
+            </div>
+          </div>
+          <div class="mt__back face"> </div>
+          <div class="mt__right face"> </div>
+          <div class="mt__left face"> </div>
+          <div class="mt__top face"> 
+            <div class="key-numbers">
+              <div class="key-column">
+                <div class="key-nb key" id="9">
+                  <div class="key-nb__front face"> </div>
+                  <div class="key-nb__back face"> </div>
+                  <div class="key-nb__right face"> </div>
+                  <div class="key-nb__left face"> </div>
+                  <div class="key-nb__top face">9</div>
+                  <div class="key-nb__bottom face"> </div>
+                </div>
+                <div class="key-nb key" id="8">
+                  <div class="key-nb__front face"> </div>
+                  <div class="key-nb__back face"> </div>
+                  <div class="key-nb__right face"> </div>
+                  <div class="key-nb__left face"> </div>
+                  <div class="key-nb__top face">8</div>
+                  <div class="key-nb__bottom face"> </div>
+                </div>
+                <div class="key-nb" id="7">
+                  <div class="key-nb__front face"> </div>
+                  <div class="key-nb__back face"> </div>
+                  <div class="key-nb__right face"> </div>
+                  <div class="key-nb__left face"> </div>
+                  <div class="key-nb__top face">7</div>
+                  <div class="key-nb__bottom face"> </div>
+                </div>
+              </div>
+              <div class="key-column">
+                <div class="key-nb" id="6">
+                  <div class="key-nb__front face"> </div>
+                  <div class="key-nb__back face"> </div>
+                  <div class="key-nb__right face"> </div>
+                  <div class="key-nb__left face"> </div>
+                  <div class="key-nb__top face">6</div>
+                  <div class="key-nb__bottom face"> </div>
+                </div>
+                <div class="key-nb" id="5">
+                  <div class="key-nb__front face"> </div>
+                  <div class="key-nb__back face"> </div>
+                  <div class="key-nb__right face"> </div>
+                  <div class="key-nb__left face"> </div>
+                  <div class="key-nb__top face">5</div>
+                  <div class="key-nb__bottom face"> </div>
+                </div>
+                <div class="key-nb" id="4">
+                  <div class="key-nb__front face"> </div>
+                  <div class="key-nb__back face"> </div>
+                  <div class="key-nb__right face"> </div>
+                  <div class="key-nb__left face"> </div>
+                  <div class="key-nb__top face">4</div>
+                  <div class="key-nb__bottom face"> </div>
+                </div>
+              </div>
+              <div class="key-column">
+                <div class="key-nb" id="3">
+                  <div class="key-nb__front face"> </div>
+                  <div class="key-nb__back face"> </div>
+                  <div class="key-nb__right face"> </div>
+                  <div class="key-nb__left face"> </div>
+                  <div class="key-nb__top face">3</div>
+                  <div class="key-nb__bottom face"> </div>
+                </div>
+                <div class="key-nb" id="2">
+                  <div class="key-nb__front face"> </div>
+                  <div class="key-nb__back face"> </div>
+                  <div class="key-nb__right face"> </div>
+                  <div class="key-nb__left face"> </div>
+                  <div class="key-nb__top face">2</div>
+                  <div class="key-nb__bottom face"> </div>
+                </div>
+                <div class="key-nb" id="1">
+                  <div class="key-nb__front face"> </div>
+                  <div class="key-nb__back face"> </div>
+                  <div class="key-nb__right face"> </div>
+                  <div class="key-nb__left face"> </div>
+                  <div class="key-nb__top face">1</div>
+                  <div class="key-nb__bottom face"> </div>
+                </div>
+              </div>
+              <div class="key-column">
+                <div class="key-nb">
+                  <div class="key-nb__front face"> </div>
+                  <div class="key-nb__back face"> </div>
+                  <div class="key-nb__right face"> </div>
+                  <div class="key-nb__left face"> </div>
+                  <div class="key-nb__top face">*</div>
+                  <div class="key-nb__bottom face"> </div>
+                </div>
+                <div class="key-nb" id="0">
+                  <div class="key-nb__front face"> </div>
+                  <div class="key-nb__back face"> </div>
+                  <div class="key-nb__right face"> </div>
+                  <div class="key-nb__left face"> </div>
+                  <div class="key-nb__top face">0</div>
+                  <div class="key-nb__bottom face"> </div>
+                </div>
+                <div class="key-nb">
+                  <div class="key-nb__front face"> </div>
+                  <div class="key-nb__back face"> </div>
+                  <div class="key-nb__right face"> </div>
+                  <div class="key-nb__left face"> </div>
+                  <div class="key-nb__top face">#</div>
+                  <div class="key-nb__bottom face"> </div>
+                </div>
+              </div>
+            </div>
+            <div class="keys">   
+              <div class="key-column">
+                <div class="key-b">
+                  <div class="key-b__front face"> </div>
+                  <div class="key-b__back face"> </div>
+                  <div class="key-b__right face"> </div>
+                  <div class="key-b__left face"> </div>
+                  <div class="key-b__top face"> </div>
+                  <div class="key-b__bottom face"> </div>
+                </div>
+                <div class="key-b">
+                  <div class="key-b__front face"> </div>
+                  <div class="key-b__back face"> </div>
+                  <div class="key-b__right face"> </div>
+                  <div class="key-b__left face"> </div>
+                  <div class="key-b__top face"> </div>
+                  <div class="key-b__bottom face"> </div>
+                </div>
+                <div class="key-b">
+                  <div class="key-b__front face"> </div>
+                  <div class="key-b__back face"> </div>
+                  <div class="key-b__right face"> </div>
+                  <div class="key-b__left face"> </div>
+                  <div class="key-b__top face"> </div>
+                  <div class="key-b__bottom face"> </div>
+                </div>
+                <div class="key-b">
+                  <div class="key-b__front face"> </div>
+                  <div class="key-b__back face"> </div>
+                  <div class="key-b__right face"> </div>
+                  <div class="key-b__left face"> </div>
+                  <div class="key-b__top face"> </div>
+                  <div class="key-b__bottom face"> </div>
+                </div>
+                <div class="key-b">
+                  <div class="key-b__front key-b__front--g face"> </div>
+                  <div class="key-b__back key-b__back--g face"> </div>
+                  <div class="key-b__right key-b__right--g face"> </div>
+                  <div class="key-b__left key-b__left--g face"> </div>
+                  <div class="key-b__top key-b__top--g face"> </div>
+                  <div class="key-b__bottom key-b__bottom--g face"> </div>
+                </div>
+              </div>
+              <div class="key-column">
+                <div class="key" id="a">
+                  <div class="key__front face"> </div>
+                  <div class="key__back face"> </div>
+                  <div class="key__right face"> </div>
+                  <div class="key__left face"> </div>
+                  <div class="key__top face">A</div>
+                  <div class="key__bottom face"> </div>
+                </div>
+                <div class="key" id="z">
+                  <div class="key__front face"> </div>
+                  <div class="key__back face"> </div>
+                  <div class="key__right face"> </div>
+                  <div class="key__left face"> </div>
+                  <div class="key__top face">Z</div>
+                  <div class="key__bottom face"> </div>
+                </div>
+                <div class="key" id="e">
+                  <div class="key__front face"> </div>
+                  <div class="key__back face"> </div>
+                  <div class="key__right face"> </div>
+                  <div class="key__left face"> </div>
+                  <div class="key__top face">E</div>
+                  <div class="key__bottom face"> </div>
+                </div>
+                <div class="key" id="r">
+                  <div class="key__front face"> </div>
+                  <div class="key__back face"> </div>
+                  <div class="key__right face"> </div>
+                  <div class="key__left face"> </div>
+                  <div class="key__top face">R</div>
+                  <div class="key__bottom face"> </div>
+                </div>
+                <div class="key" id="t">
+                  <div class="key__front face"> </div>
+                  <div class="key__back face"> </div>
+                  <div class="key__right face"> </div>
+                  <div class="key__left face"> </div>
+                  <div class="key__top face">T</div>
+                  <div class="key__bottom face"> </div>
+                </div>
+                <div class="key" id="y">
+                  <div class="key__front face"> </div>
+                  <div class="key__back face"> </div>
+                  <div class="key__right face"> </div>
+                  <div class="key__left face"> </div>
+                  <div class="key__top face">Y</div>
+                  <div class="key__bottom face"> </div>
+                </div>
+                <div class="key" id="u">
+                  <div class="key__front face"> </div>
+                  <div class="key__back face"> </div>
+                  <div class="key__right face"> </div>
+                  <div class="key__left face"> </div>
+                  <div class="key__top face">U</div>
+                  <div class="key__bottom face"> </div>
+                </div>
+                <div class="key" id="i">
+                  <div class="key__front face"> </div>
+                  <div class="key__back face"> </div>
+                  <div class="key__right face"> </div>
+                  <div class="key__left face"> </div>
+                  <div class="key__top face">I</div>
+                  <div class="key__bottom face"> </div>
+                </div>
+                <div class="key" id="o">
+                  <div class="key__front face"> </div>
+                  <div class="key__back face"> </div>
+                  <div class="key__right face"> </div>
+                  <div class="key__left face"> </div>
+                  <div class="key__top face">O</div>
+                  <div class="key__bottom face"> </div>
+                </div>
+                <div class="key" id="p">
+                  <div class="key__front face"> </div>
+                  <div class="key__back face"> </div>
+                  <div class="key__right face"> </div>
+                  <div class="key__left face"> </div>
+                  <div class="key__top face">P</div>
+                  <div class="key__bottom face"> </div>
+                </div>
+                <div class="key" id="Backspace">
+                  <div class="key__front face"> </div>
+                  <div class="key__back face"> </div>
+                  <div class="key__right face"> </div>
+                  <div class="key__left face"> </div>
+                  <div class="key__top face"> </div>
+                  <div class="key__bottom face"> </div>
+                </div>
+              </div>
+              <div class="key-column">
+                <div class="key" id="q">
+                  <div class="key__front face"> </div>
+                  <div class="key__back face"> </div>
+                  <div class="key__right face"> </div>
+                  <div class="key__left face"> </div>
+                  <div class="key__top face">Q</div>
+                  <div class="key__bottom face"> </div>
+                </div>
+                <div class="key" id="s">
+                  <div class="key__front face"> </div>
+                  <div class="key__back face"> </div>
+                  <div class="key__right face"> </div>
+                  <div class="key__left face"> </div>
+                  <div class="key__top face">S</div>
+                  <div class="key__bottom face"> </div>
+                </div>
+                <div class="key" id="d">
+                  <div class="key__front face"> </div>
+                  <div class="key__back face"> </div>
+                  <div class="key__right face"> </div>
+                  <div class="key__left face"> </div>
+                  <div class="key__top face">D</div>
+                  <div class="key__bottom face"> </div>
+                </div>
+                <div class="key" id="f">
+                  <div class="key__front face"> </div>
+                  <div class="key__back face"> </div>
+                  <div class="key__right face"> </div>
+                  <div class="key__left face"> </div>
+                  <div class="key__top face">F</div>
+                  <div class="key__bottom face"> </div>
+                </div>
+                <div class="key" id="g">
+                  <div class="key__front face"> </div>
+                  <div class="key__back face"> </div>
+                  <div class="key__right face"> </div>
+                  <div class="key__left face"> </div>
+                  <div class="key__top face">G</div>
+                  <div class="key__bottom face"> </div>
+                </div>
+                <div class="key" id="h">
+                  <div class="key__front face"> </div>
+                  <div class="key__back face"> </div>
+                  <div class="key__right face"> </div>
+                  <div class="key__left face"> </div>
+                  <div class="key__top face">H</div>
+                  <div class="key__bottom face"> </div>
+                </div>
+                <div class="key" id="j">
+                  <div class="key__front face"> </div>
+                  <div class="key__back face"> </div>
+                  <div class="key__right face"> </div>
+                  <div class="key__left face"> </div>
+                  <div class="key__top face">J</div>
+                  <div class="key__bottom face"> </div>
+                </div>
+                <div class="key" id="k">
+                  <div class="key__front face"> </div>
+                  <div class="key__back face"> </div>
+                  <div class="key__right face"> </div>
+                  <div class="key__left face"> </div>
+                  <div class="key__top face">K</div>
+                  <div class="key__bottom face"> </div>
+                </div>
+                <div class="key" id="l">
+                  <div class="key__front face"> </div>
+                  <div class="key__back face"> </div>
+                  <div class="key__right face"> </div>
+                  <div class="key__left face"> </div>
+                  <div class="key__top face">L</div>
+                  <div class="key__bottom face"> </div>
+                </div>
+                <div class="key" id="m">
+                  <div class="key__front face"> </div>
+                  <div class="key__back face"> </div>
+                  <div class="key__right face"> </div>
+                  <div class="key__left face"> </div>
+                  <div class="key__top face">M</div>
+                  <div class="key__bottom face"> </div>
+                </div>
+              </div>
+              <div class="key-column">
+                <div class="key" id="w">
+                  <div class="key__front face"> </div>
+                  <div class="key__back face"> </div>
+                  <div class="key__right face"> </div>
+                  <div class="key__left face"> </div>
+                  <div class="key__top face">W</div>
+                  <div class="key__bottom face"> </div>
+                </div>
+                <div class="key" id="x">
+                  <div class="key__front face"> </div>
+                  <div class="key__back face"> </div>
+                  <div class="key__right face"> </div>
+                  <div class="key__left face"> </div>
+                  <div class="key__top face">X</div>
+                  <div class="key__bottom face"> </div>
+                </div>
+                <div class="key" id="c">
+                  <div class="key__front face"> </div>
+                  <div class="key__back face"> </div>
+                  <div class="key__right face"> </div>
+                  <div class="key__left face"> </div>
+                  <div class="key__top face">C</div>
+                  <div class="key__bottom face"> </div>
+                </div>
+                <div class="key" id="v">
+                  <div class="key__front face"> </div>
+                  <div class="key__back face"> </div>
+                  <div class="key__right face"> </div>
+                  <div class="key__left face"> </div>
+                  <div class="key__top face">V</div>
+                  <div class="key__bottom face"> </div>
+                </div>
+                <div class="key-s key" id="espace">
+                  <div class="key-s__front face"> </div>
+                  <div class="key-s__back face"> </div>
+                  <div class="key-s__right face"> </div>
+                  <div class="key-s__left face"> </div>
+                  <div class="key-s__top key__top face">ESPACE</div>
+                  <div class="key-s__bottom face"> </div>
+                </div>
+                <div class="key" id="b">
+                  <div class="key__front face"> </div>
+                  <div class="key__back face"> </div>
+                  <div class="key__right face"> </div>
+                  <div class="key__left face"> </div>
+                  <div class="key__top face">B</div>
+                  <div class="key__bottom face"> </div>
+                </div>
+                <div class="key" id="n">
+                  <div class="key__front face"> </div>
+                  <div class="key__back face"> </div>
+                  <div class="key__right face"> </div>
+                  <div class="key__left face"> </div>
+                  <div class="key__top face">N</div>
+                  <div class="key__bottom face"> </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="mt__bottom face"> </div>
+        </div>
+        <div class="mfb">
+          <div class="mfb__front face"><span>MINITEL</span></div>
+          <div class="mfb__back face"> </div>
+          <div class="mfb__right face"> </div>
+          <div class="mfb__left face"> </div>
+          <div class="mfb__top face"> </div>
+          <div class="mfb__bottom face"> </div>
+        </div>
+        <div class="mft">
+          <div class="mft__front face"> </div>
+          <div class="mft__back face"> </div>
+          <div class="mft__right face"> </div>
+          <div class="mft__left face"> </div>
+          <div class="mft__top face"> </div>
+          <div class="mft__bottom face"> </div>
+        </div>
+        <div class="mfl">
+          <div class="mfl__front face"> </div>
+          <div class="mfl__back face"> </div>
+          <div class="mfl__right face"> </div>
+          <div class="mfl__left face"> </div>
+          <div class="mfl__top face"> </div>
+          <div class="mfl__bottom face"> </div>
+        </div>
+        <div class="mfr">
+          <div class="mfl__front face"> 
+            <div class="led" id="led"></div>
+          </div>
+          <div class="mfl__back face"> </div>
+          <div class="mfl__right face"> </div>
+          <div class="mfl__left face"> </div>
+          <div class="mfl__top face"> </div>
+          <div class="mfl__bottom face"> </div>
+        </div>
+        <div class="mb">
+          <div class="mb__front face"> 
+            <div class="screen">
+              <div class="screen__shadow" id="screen-s"></div> GOOGLE: 3615 <br><br> <span class="text" id="screen"></span><span class="cursor"></span>
+            </div>
+          </div>
+          <div class="mb__back face"> </div>
+          <div class="mb__right face"> </div>
+          <div class="mb__left face"> </div>
+          <div class="mb__top face"> </div>
+          <div class="mb__bottom face"> </div>
+        </div>
+        <div class="ml">
+          <div class="ml__front face"> </div>
+          <div class="ml__back face"> </div>
+          <div class="ml__right face"> </div>
+          <div class="ml__left face"> </div>
+          <div class="ml__top face"> </div>
+          <div class="ml__bottom face"> </div>
+        </div>
+        <div class="mr">
+          <div class="mr__front face"> </div>
+          <div class="mr__back face"> </div>
+          <div class="mr__right face"> </div>
+          <div class="mr__left face"> </div>
+          <div class="mr__top face"> </div>
+          <div class="mr__bottom face"> </div>
+        </div>
+        <div class="mc">
+          <div class="mc__front face"> </div>
+          <div class="mc__back face"> </div>
+          <div class="mc__right face"> </div>
+          <div class="mc__left face"> </div>
+          <div class="mc__top face"> </div>
+          <div class="mc__bottom face"> </div>
+        </div>
+        <div class="mbl">
+          <div class="mbl__front face"> </div>
+          <div class="mbl__back face"> </div>
+          <div class="mbl__right-1 face"> </div>
+          <div class="mbl__right-2 face"> </div>
+          <div class="mbl__left-1 face"> </div>
+          <div class="mbl__left-2 face"> </div>
+          <div class="mbl__top face"> </div>
+          <div class="mbl__bottom face"> </div>
+        </div>
+        <div class="mbl-2">
+          <div class="mbl__front face"> </div>
+          <div class="mbl__back face"> </div>
+          <div class="mbl__right-1 face"> </div>
+          <div class="mbl__right-2 face"> </div>
+          <div class="mbl__left-1 face"> </div>
+          <div class="mbl__left-2 face"> </div>
+          <div class="mbl__top face"> </div>
+          <div class="mbl__bottom face"> </div>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
